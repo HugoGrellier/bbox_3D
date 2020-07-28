@@ -20,6 +20,17 @@ tf_broadcast.py
 Receives the message and will execute the saving mecanism as an Interest Point via the MapManager.
 Other services are also provided such as the [division of the map in several rooms](https://github.com/Robocup-Lyontech/bbox_3D/blob/master/Documentation%20d%C3%A9coupage%20de%20la%20map%20en%20pi%C3%A8ces.pdf).
 
+### Dependencies
+If you are working on a PC with ROS Kinetic :
+```bash
+sudo apt-get install ros-kinetic-ros-numpy
+sudo apt-get install ros-kinetic-rospy-message-converter
+```
+For every device :
+```bash
+sudo pip install shapely
+```
+
 ## Usage : 
 ```bash
 roslaunch coordinates_point_cloud tf_bbox.launch
