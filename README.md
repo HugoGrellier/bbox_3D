@@ -2,7 +2,8 @@
 
 ## Authors
 
-Simon ERNST
+- Simon ERNST
+- Thomas Curé
 
 ## Description
 
