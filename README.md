@@ -18,7 +18,7 @@ Each data will be sent via a ROS message ( with the name, score, x, y, z coordin
 tf_broadcast.py
 
 Receives the message and will execute the saving mecanism as an Interest Point via the MapManager.
-Other services are also provided.
+Other services are also provided such as the [division of the map in several rooms](https://github.com/Robocup-Lyontech/bbox_3D/blob/master/Documentation%20d%C3%A9coupage%20de%20la%20map%20en%20pi%C3%A8ces.pdf).
 
 ## Usage : 
 ```bash
