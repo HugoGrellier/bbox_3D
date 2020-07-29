@@ -44,7 +44,7 @@ wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Nmtj
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1iKBGruOFCd2JY5DYf8-vIcSQXe48ywcK' -O place_entrance_recep.coord
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1QaogjPKw-Zo5hE7AA8WtjPNotdMheSwf' -O place_kitchen.coord
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mKy7Q-iU-Q9EQu_WWW8XbWNhdjiWFMeZ' -O place_livingRoom.coord
-
+```
 
 
 
