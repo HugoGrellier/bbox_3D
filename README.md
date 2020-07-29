@@ -37,7 +37,7 @@ sudo pip install shapely
 roslaunch coordinates_point_cloud tf_bbox.launch
 ```
 This will launch the two previous nodes.
-
+It will also launch a static transform publisher in order to have the correct orientation for the Kinect.
 
 ### Configuration
 
