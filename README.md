@@ -32,6 +32,22 @@ For every device :
 sudo pip install shapely
 ```
 
+Interest point of CPE Arena
+From your catkin ws
+
+```bash
+mkdir -p data/world_mng/interest_points && mkmdir -p data/world_mng/temp
+cd data/world_mng/interest_points
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1-1aMc3yNnchlErcB0kWB2Wnfu7LHoqSU' -O place_bedroom.coord
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=177ZgRUUwLq52WdOIyInkIsmHWUuHjjSS' -O place_diningRoom.coord
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Nmtjj6c_4iCT9Izj-2C2aJWZ9oorFPTV' -O place_entrance_cleanup.coord
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1iKBGruOFCd2JY5DYf8-vIcSQXe48ywcK' -O place_entrance_recep.coord
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1QaogjPKw-Zo5hE7AA8WtjPNotdMheSwf' -O place_kitchen.coord
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mKy7Q-iU-Q9EQu_WWW8XbWNhdjiWFMeZ' -O place_livingRoom.coord
+
+
+
+
 ## Usage : 
 ```bash
 roslaunch coordinates_point_cloud tf_bbox.launch
